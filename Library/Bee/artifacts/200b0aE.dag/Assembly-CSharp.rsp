@@ -367,6 +367,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.2.9f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/GameEnd.cs"
 "Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/LightFlicker.cs"
+"Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/Observer.cs"
 "Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/PlayerMovement.cs"
 "Assets/UnityTechnologies/3DBeginnerTutorial/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0

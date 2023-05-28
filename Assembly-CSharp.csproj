@@ -62,6 +62,7 @@
     <Compile Include="Assets/UnityTechnologies/3DBeginnerTutorial/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/PlayerMovement.cs" />
     <Compile Include="Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/GameEnd.cs" />
+    <Compile Include="Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/Observer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/UnityTechnologies/3DBeginnerTutorial/Shaders/ToonShader.shader" />
