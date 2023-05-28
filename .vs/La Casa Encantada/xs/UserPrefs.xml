@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{0B8A6991-F18B-3A26-D69D-681E9C5DE574}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/PlayerMovement.cs">
+    <Files>
+      <File FileName="Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/PlayerMovement.cs" Line="83" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="La Casa Encantada" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="UnityTechnologies" expanded="True">
+                <Node name="3DBeginnerTutorial" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="PlayerMovement.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fd2c686a-5371-46d5-ba8b-686b1a4bf7ac" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
