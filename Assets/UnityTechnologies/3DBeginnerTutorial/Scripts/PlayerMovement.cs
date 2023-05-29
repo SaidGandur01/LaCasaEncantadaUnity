@@ -57,17 +57,18 @@ public class PlayerMovement : MonoBehaviour
 
     Animator anim;
     Rigidbody rigid;
+    AudioSource audio;
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
         rigid = GetComponent<Rigidbody>();
-
+        audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
@@ -77,15 +78,26 @@ public class PlayerMovement : MonoBehaviour
 
         bool horizontalInput = !Mathf.Approximately(horizontal, 0f);
         bool verticalInput = !Mathf.Approximately(vertical, 0f);
-        Debug.Log("vertical: " + vertical);
-        Debug.Log("horizontal: " + horizontal);
-        Debug.Log("horizontalInput: " + horizontalInput);
-        Debug.Log("verticalInput: " + verticalInput);
+        //Debug.Log("vertical: " + vertical);
+        //Debug.Log("horizontal: " + horizontal);
+        //Debug.Log("horizontalInput: " + horizontalInput);
+        //Debug.Log("verticalInput: " + verticalInput);
         bool isWalking = horizontalInput || verticalInput;
         anim.SetBool("IsWalking", isWalking);
 
         Vector3 desireForward = Vector3.RotateTowards(transform.forward, movement, turnSpeed * Time.deltaTime, 0f);
         rotation = Quaternion.LookRotation(desireForward);
+
+        if (isWalking)
+        {
+            if (!audio.isPlaying)
+            {
+                audio.Play();
+            }
+        } else
+        {
+            audio.Stop();
+        }
     }
 
     private void OnAnimatorMove()
