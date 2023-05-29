@@ -1,18 +1,21 @@
 ﻿<Properties StartupConfiguration="{0B8A6991-F18B-3A26-D69D-681E9C5DE574}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/Observer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/WayPointFollow.cs">
     <Files>
       <File FileName="Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/PlayerMovement.cs" Line="79" Column="7" />
-      <File FileName="Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/GameEnd.cs" Line="13" Column="35" />
-      <File FileName="Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/Observer.cs" Line="16" Column="1" />
+      <File FileName="Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/GameEnd.cs" Line="65" Column="25" />
+      <File FileName="Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/Observer.cs" Line="21" Column="10" />
+      <File FileName="Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/WayPointFollow.cs" Line="29" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="La Casa Encantada" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
               <Node name="UnityTechnologies" expanded="True">
                 <Node name="3DBeginnerTutorial" expanded="True">
-                  <Node name="Scripts" expanded="True" />
+                  <Node name="Scripts" expanded="True">
+                    <Node name="WayPointFollow.cs" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>

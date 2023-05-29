@@ -369,6 +369,7 @@
 "Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/LightFlicker.cs"
 "Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/Observer.cs"
 "Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/PlayerMovement.cs"
+"Assets/UnityTechnologies/3DBeginnerTutorial/Scripts/WayPointFollow.cs"
 "Assets/UnityTechnologies/3DBeginnerTutorial/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 
